@@ -1,25 +1,18 @@
-import { Card } from "@/components/ui/Card";
-import { BarChart } from "lucide-react";
-
-export default function DashboardPage() {
+export default function Home() {
   return (
     <div className="p-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900">
-          Analytics Dashboard
+          Dashboard - Comming Soon
         </h1>
         <p className="text-gray-500">
-          View your business metrics and performance indicators.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          aliquam porro consectetur dolores natus voluptate qui velit hic, vero
+          harum corrupti iure alias ratione distinctio ab itaque dignissimos!
+          Necessitatibus quas ipsa, quam voluptate aut quasi animi corrupti
+          repellendus provident magnam natus tenetur, numquam porro repellat
+          eaque quis magni nisi tempore.
         </p>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card title="Monthly Performance">
-          <div className="h-[300px] flex items-center justify-center">
-            <BarChart className="h-8 w-8 text-[#038C8C]" />
-            <span className="ml-2 text-gray-500">Chart coming soon</span>
-          </div>
-        </Card>
       </div>
     </div>
   );

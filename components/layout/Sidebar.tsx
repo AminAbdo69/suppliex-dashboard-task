@@ -23,7 +23,11 @@ const navigationItems = [
   { name: "Orders", icon: Orders, href: "/orders" },
   { name: "Profile", icon: Profile, href: "/profile" },
   { name: "Settings", icon: Settings, href: "/settings" },
-  { name: "Notification", icon: Notification, href: "/notifications" },
+  {
+    name: "Notification",
+    icon: Notification,
+    href: "/notifications",
+  },
   { name: "Markting", icon: Markting, href: "/marketing" },
 ];
 
