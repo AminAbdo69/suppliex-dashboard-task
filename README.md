@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Suppliex Dashboard
+
+Suppliex Dashboard is a modern, responsive admin dashboard built with Next.js, React, and Tailwind CSS. It is designed for suppliers to manage their business, products, orders, and profile with a clean and intuitive interface.
+
+## Features
+
+- **Sidebar Navigation:**  
+  Easy access to Dashboard, Products, Orders, Profile, Settings, Notifications, and Marketing pages.
+
+- **Profile Management:**  
+  Edit your business summary, location, and profile details with a user-friendly interface.
+
+- **Dashboard Analytics:**  
+  Visualize sales and business metrics with interactive charts (using Recharts).
+
+- **Custom Theming:**  
+  Uses a modern color palette and supports easy customization.
+
+- **Reusable Components:**  
+  Includes reusable Card, Button, and Chart components for rapid development.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn](https://ui.shadcn.com/) (for ui components)
+- [Recharts](https://recharts.org/) (for charts)
+- [icons](https://icones.js.org/) (for icons)
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/app` — Next.js app directory (pages and routes)
+- `/components` — Reusable UI and layout components
+- `/assets` — Images and icons
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+- Update navigation items in `components/layout/Sidebar.tsx`
+- Add or edit pages in the `/app` directory
+- Change theme colors in your Tailwind config or component classes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Suppliex Dashboard** helps suppliers manage their business efficiently with a beautiful, modern interface.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Supplier Profile](https://github.com/user-attachments/assets/8982dcc0-861d-420e-813e-f956ee69bb15)
